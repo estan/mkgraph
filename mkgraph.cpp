@@ -9,7 +9,8 @@
 
 using namespace std;
 
-default_random_engine rng;
+random_device rd;
+default_random_engine rng(rd());
 
 class Point {
 public:

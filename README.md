@@ -26,30 +26,30 @@ The program will output the number of points followed by an "x y" pair for each 
 
 ### Generating Normally Distributed Points (`-n`)
 
-    Usage: mkgraph -n npoints,mean_x,mean_y,dev_x,dev_y\n"
+    Usage: mkgraph -n npoints,mean_x,mean_y,dev_x,dev_y
     
-    Generates a normally distributed cluster of points where\n"
+    Generates a normally distributed cluster of points where
     
-      npoints   is the number of points in the cluster,\n"
-      mean_x    is the mean x value,\n"
-      mean_y    is the mean y value,\n"
-      dev_x     is the standard deviation in the x direction,\n"
-      dev_y     is the standard deviation in the y direction.\n"
+      npoints   is the number of points in the cluster,
+      mean_x    is the mean x value,
+      mean_y    is the mean y value,
+      dev_x     is the standard deviation in the x direction,
+      dev_y     is the standard deviation in the y direction.
     
-    The option may be repeated to create several clusters";
+    The option may be repeated to create several clusters
 
 ### Generating Uniformly Distributed Points (`-u`)
 
-    Usage: mkgraph -u npoints,x,y,width,height\n"
+    Usage: mkgraph -u npoints,x,y,width,height
     
-    Generates a uniformly distributed cluster of points where\n"
+    Generates a uniformly distributed cluster of points where
     
-      npoints   is the number of points in the cluster,\n"
-      x,y       is the position of the area to contain the points,\n"
-      width     is the width of the area to contain the points,\n"
-      height    is the height of the area to contain the points.\n"
+      npoints   is the number of points in the cluster,
+      x,y       is the position of the area to contain the points,
+      width     is the width of the area to contain the points,
+      height    is the height of the area to contain the points.
     
-    The option may be repeated to create several clusters";
+    The option may be repeated to create several clusters
 
 Example
 -------

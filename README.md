@@ -5,7 +5,7 @@ Test case generator for Travelling Salesperson 2D problem on Kattis (oldkattis:t
 
 Building
 --------
-Simply type `make` on a system with a recent version GCC.
+Simply type `make` on a system with a recent version of GCC.
 
 Documentation
 -------------

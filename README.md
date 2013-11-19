@@ -10,7 +10,7 @@ Simply type `make` on a system with a recent version GCC.
 Documentation
 -------------
 
-The program will the number of points followed by an "x y" pair for each generated point.
+The program will output the number of points followed by an "x y" pair for each generated point.
 
 ### General Usage
     Usage: mkgraph [ -h | -hn | -hu ] [ [ -n <spec> | -u <spec> ] ... ]

@@ -55,7 +55,7 @@ void buildUniformCluster(const char *spec, vector<Point>& points) {
         throw runtime_error("-u: Malformed spec\n" + normalHelp);
 
     uniform_real_distribution<float> distributionX(x, x + width);
-    uniform_real_distribution<float> distributionY(y, y + width);
+    uniform_real_distribution<float> distributionY(y, y + height);
 
     for (int i = 0; i < numPoints; ++i) {
         points.emplace_back(distributionX(rng), distributionY(rng));

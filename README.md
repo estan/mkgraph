@@ -45,7 +45,7 @@ The program will output the number of points followed by an "x y" pair for each 
     Generates a uniformly distributed cluster of points where
     
       npoints   is the number of points in the cluster,
-      x,y       is the position of the area to contain the points,
+      x,y       is the top left position of the area to contain the points,
       width     is the width of the area to contain the points,
       height    is the height of the area to contain the points.
     

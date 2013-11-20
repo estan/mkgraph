@@ -34,7 +34,7 @@ const std::string uniformHelp =
     "Generates a uniformly distributed cluster of points where\n"
     "\n"
     "  npoints   is the number of points in the cluster,\n"
-    "  x,y       is the position of the area to contain the points,\n"
+    "  x,y       is the top left position of the area to contain the points,\n"
     "  width     is the width of the area to contain the points,\n"
     "  height    is the height of the area to contain the points.\n"
     "\n"
